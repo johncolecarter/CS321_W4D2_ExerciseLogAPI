@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Services\" />
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="Services\IUserService1.cs" />
   </ItemGroup>
 </Project>
